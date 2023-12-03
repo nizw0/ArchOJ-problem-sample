@@ -1,0 +1,22 @@
+{
+  "name": "Ant on a Chessboard",
+  "description": "One day, an ant called Alice came to an M*M chessboard. She wanted to go around all the grids. So she began to walk along the chessboard according to this way: (you can assume that her speed is one grid per second)\nAt the first second, Alice was standing at (1,1). Firstly she went up for a grid, then a grid to the right, a grid downward. After that, she went a grid to the right, then two grids upward, and then two grids to the left¡ in a word, the path was like a snake.\nFor example, her first 25 seconds went like this:\n( the numbers in the grids stands for the time when she went into the grids)\nAt the 8-th second , she was at (2,3), and at 20-th second, she was at (5,4).\nYour task is to decide where she was at a given time (you can assume that M is large enough).\nInput\n Input file will contain several lines, and each line contains a number N (1 ≤ N ≤ 2 ∗ 109 ), which stands for the time. The file will be ended with a line that contains a number ‘0’.\nOutput\nFor each input situation you should print a line with two numbers (x,y), the column and the row number, there must be only a space between them.",
+  "fileUrl": "https://onlinejudge.org/external/101/10161.pdf",
+  "testcases": [
+    {
+      "input": "8\n20\n25\n0",
+      "output": "2 3\n5 4\n1 5",
+      "isSample": true
+    },
+    {
+      "input": "8\n20\n25\n1\n2\n3\n4\n5\n6\n7\n9\n10\n14\n17\n50\n89\n128\n3934\n82883\n282399\n9923882\n23882833\n23837832\n10000000\n288776612\n1005500000\n1108000000\n2000000000\n0",
+      "output": "2 3\n5 4\n1 5\n1 1\n1 2\n2 2\n2 1\n3 1\n3 2\n3 3\n1 3\n1 4\n4 3\n5 1\n1 8\n8 10\n7 12\n36 63\n288 62\n438 532\n3151 1382\n64 4888\n4883 3908\n3163 1756\n14563 16994\n31710 24101\n24370 33287\n32159 44722",
+      "isSample": false
+    },
+    {
+      "input": "16\n28\n76\n87\n120\n128\n111\n121\n1341\n12234\n14589\n926485\n2589746\n86238342\n8754793\n73734\n9788377\n227996540\n55776611\n77289652\n283898399\n1276373727\n882323344\n882877333\n2000000000\n0",
+      "output": "4 1\n3 6\n6 9\n6 10\n2 11\n7 12\n11 11\n1 11\n29 37\n88 111\n53 121\n885 963\n865 1610\n9287 8546\n889 2959\n272 251\n2265 3129\n15100 13461\n7469 5587\n7971 8792\n9598 16850\n35727 26651\n29704 4273\n14964 29714\n32159 44722",
+      "isSample": false
+    }
+  ]
+}

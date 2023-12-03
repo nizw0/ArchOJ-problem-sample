@@ -1,0 +1,22 @@
+{
+  "name": "An Easy Problem!",
+  "description": "Have you heard the fact “The base of every normal number system is 10”? Of course, I am not talking about number systems like Stern Brockot Number System. This problem has nothing to do with this fact but may have some similarity.\n You will be given an N based integer number R and you are given the guaranty that R is divisible by (N − 1). You will have to print the smallest possible value for N. The range for N is 2 ≤ N ≤ 62 and the digit symbols for 62 based number is (0..9 and A..Z and a..z). Similarly, the digit symbols for 61 based number system is 0..9 and A..Z and a..y) and so on.\nInput Each line in the input file will contain an integer (as defined in mathematics) number of any integer base (2..62). You will have to determine what is the smallest possible base of that number for the given conditions. No invalid number will be given as input. \nOutput\n If number with such condition is not possible output the line ‘such number is impossible!’ For each line of input there will be only a single line of output. The output will always be in decimal number system.",
+  "fileUrl": "https://onlinejudge.org/external/100/10093.pdf",
+  "testcases": [
+    {
+      "input": "3\n5\nA",
+      "output": "4\n6\n11",
+      "isSample": true
+    },
+    {
+      "input": "3\n5\nA\n2\n4\n6\n7\n8\n9\n10\n11\nB\nZ\n236\n752\n8364\n283429\nArping\n765\nkjlsdf\n2432\nAAA\nABCDee\n23khasf\n123456789\n987654321\nCbyang\nCBYANG\n101010\n1234GHIJK\n15678BCDEF7\nkwkkwe\n283jsjjnsjkzs",
+      "output": "4\n6\n11\n3\n5\n7\n8\n9\n10\n2\n2\n12\n36\n12\n8\n22\n15\nsuch number is impossible!\n10\nsuch number is impossible!\n12\n11\n43\nsuch number is impossible!\n10\n10\nsuch number is impossible!\n54\n2\n21\n34\nsuch number is impossible!\nsuch number is impossible!",
+      "isSample": false
+    },
+    {
+      "input": "6\n827\n9723\n732AC\nsjkksd\n2i238\nVDAC\neJ2x\nBDv\ncU\nCZA2\nms\n3jkVT\nBAG\nBBCD\nNgM\nTCL\np2\n2734\nChouhl\nIh\nABCD\nVKsjR\nVCDX\n283j439\nsbFS\n28338\n2886\n291\nvzxyw",
+      "output": "7\n18\n22\n18\nsuch number is impossible!\n60\n34\n61\nsuch number is impossible!\nsuch number is impossible!\n60\nsuch number is impossible!\nsuch number is impossible!\n38\n48\nsuch number is impossible!\n32\n54\n9\nsuch number is impossible!\n62\n24\n60\nsuch number is impossible!\nsuch number is impossible!\nsuch number is impossible!\n9\n9\n13\nsuch number is impossible!",
+      "isSample": false
+    }
+  ]
+}
